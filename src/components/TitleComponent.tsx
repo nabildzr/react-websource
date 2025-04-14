@@ -19,7 +19,12 @@ const TitleComponent = ({ pt, pb, title, withSub, subTitle}: TitleComponentProps
           {title}
         </h1>
         {withSub && (
-          <p className="text-center animate__animated animate__fadeInUp animate__delay-2s">
+          <p
+            className="text-center"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-delay="200"
+          >
             {subTitle}
           </p>
         )}
