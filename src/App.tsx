@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router";
 import HomePage from "./pages/HomePage";
 import KelasPage from "./pages/KelasPage";
@@ -12,19 +12,15 @@ import AOS from "aos";
 import ScrollToTop from "./components/ScrollToTop";
 import Drawer from "./components/Drawer";
 
-
-
 function App() {
   useEffect(() => {
-    AOS.init({
-    });
+    AOS.init({});
   }, []);
-
 
   return (
     <>
       <Router>
-        <ScrollToTop/>
+        <ScrollToTop />
         <NavbarComponent />
         <Drawer />
         <Routes>
