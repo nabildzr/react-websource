@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router";
 import HomePage from "./pages/HomePage";
 import KelasPage from "./pages/KelasPage";
 import TestimonialPage from "./pages/TestimonialPage";
-import FaqComponent from "./components/FaqComponent";
 import NavbarComponent from "./components/NavbarComponent";
 import FaqPage from "./pages/FaqPage";
 import SyaratKetentuanPage from "./pages/SyaratKetentuanPage";
