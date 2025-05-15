@@ -2,8 +2,8 @@ import { useState } from "react";
 
 interface FaqProps {
   id: number;
-  title: String;
-  desc: String;
+  title: string;
+  desc: string;
   index: number;
 }
 
@@ -11,10 +11,10 @@ const FaqComponent = ({ id, title, desc, index }: FaqProps) => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   return (
-    <div className="flex flex-col text-color-text">
+    <div className="flex flex-col text-color-text ">
       <div
         key={id}
-        className="collapse collapse-arrow bg-base-100 border border-base-300"
+        className="collapse collapse-arrow  border border-base-300 bg-white"
       >
         <input
           type="checkbox"

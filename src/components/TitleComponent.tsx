@@ -2,8 +2,8 @@
 interface TitleComponentProps {
   pt: number;
   pb: number;
-  title: String;
-  subTitle?: String;
+  title: string;
+  subTitle?: string;
   withSub?: boolean;
 }
 

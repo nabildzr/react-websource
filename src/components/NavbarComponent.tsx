@@ -26,10 +26,10 @@ const NavbarComponent = () => {
       className={`${
         isScrolled
           ? "bg-white border-b-2   border-[#dc35462a] p-5"
-          : "p-7 border-b border-transparent bg-transparent"
+          : "p-7 border-b border-transparent"
       }   w-full flex justify-between ${
         location.pathname != "/" ? "sticky top-0" : "fixed "
-      } transition-all z-90 text-color-text`}
+      } transition-all z-90 text-color-text bg-transparent`}
     >
       <div className="container mx-auto flex justify-between callout-subtitle animate__animated animate__fadeInDown">
         <a href="/" className="text-3xl font-bold text-gray-800">
